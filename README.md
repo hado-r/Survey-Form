@@ -24,7 +24,20 @@
      </label>
       <select name="role" id="role">
         <option value="Student">Student</option>
-        <option value=> 
+        <option value="intern">Intern</option>
+        <option value="teacher">Teacher</option>
+        <option value="other">Other</option>
+    </div>
+    <div class="form-control">
+    <label>Would you recommend Easy Life to a friend?</label>
+    <labelfor="recommend-1">
+     <input type="radio" id="recommend-1" name="recommend">Yes</input>
+     <label for="recommend-2">
+     <input type="radio" id="recommend-2" name="recommend">No<input> 
+     <label for="recommend-3">
+      <input type="radio" id="recommend-3" name="recommend">Maybe</input>
+    </label>
+    </div>      
 
 
 
