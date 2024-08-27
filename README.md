@@ -22,7 +22,9 @@
     <div class="form-control">
      <label for="role" id="label-role">which option best describes you?
      </label>
-         
+      <select name="role" id="role">
+        <option value="Student">Student</option>
+        <option value=> 
 
 
 
