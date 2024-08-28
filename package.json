@@ -1,0 +1,19 @@
+{
+  "name": "survey-form",
+  "version": "1.0.0",
+  "description": "<!DOCTYPE html>\r <html lang=\"en\">\r <body>\r  <h1>Survey Form</h1>\r  <form id=\"form \">\r     <div class=\"form-control\">\r       <label for=\"name\" id=\"label-name\">Name\r        </label>\r        <input type=\"text\" id=\"name\" placeholder=\"Enter your Name\"/>\r     </div>\r     <div>\r      <div class=\"form-control\">\r       <label for=\"email\" id=\"label-email\">Email\r       </label>\r       <input type=\"email\" id=\"email\" placeholder=\"Enter your Email\">\r     </div>\r     <div class=\"form-control\">\r      <label for=\"age\" id=\"label-age\">Age\r      </label>\r      <input type=\"text\" id=\"age\" placeholder=\"Enter your Age\">\r      </div>\r     <div class=\"form-control\">\r      <label for=\"role\" id=\"label-role\">which option best describes you?\r      </label>\r       <select name=\"role\" id=\"role\">\r         <option value=\"Student\">Student</option>\r         <option value=\"intern\">Intern</option>\r         <option value=\"teacher\">Teacher</option>\r         <option value=\"other\">Other</option>\r     </div>\r     <div class=\"form-control\">\r     <label>Would you recommend Easy Life to a friend?</label>\r     <labelfor=\"recommend-1\">\r      <input type=\"radio\" id=\"recommend-1\" name=\"recommend\">Yes</input>\r      <label for=\"recommend-2\">\r      <input type=\"radio\" id=\"recommend-2\" name=\"recommend\">No<input> \r      <label for=\"recommend-3\">\r       <input type=\"radio\" id=\"recommend-3\" name=\"recommend\">Maybe</input>\r     </label>\r     </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^7.1.12",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
