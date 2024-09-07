@@ -55,3 +55,22 @@ input,
 select {
   border-radius: 5px;
 }
+textarea {
+  min-height: 6.33em;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: rgb(215, 90,215);
+  border-color: rgb(255, 215, 0);
+  color: rgb(245, 255, 250);
+  font-size: 1.33rem;
+  min-height: 2.5em;
+}
+
+input[type="submit"]:hover {
+  outline: none !important;
+  border: 2px solid rgb(251, 155, 227);
+  box-shadow: 0 0 10px rgb(239, 241, 96);
+  cursor: pointer;
+}
