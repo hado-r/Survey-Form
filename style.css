@@ -38,3 +38,20 @@ form {
 label {
   display: block;
 }
+fieldset {
+  border: none;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  margin: 0.1em 0 1em 0;
+  min-height: 2em;
+  font-size: 0.67em;
+}
+
+input,
+select {
+  border-radius: 5px;
+}
